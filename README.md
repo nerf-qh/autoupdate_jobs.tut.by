@@ -1,1 +1,1 @@
-# autoupdate_jobs.tut.by
+# Autoupdate resumes jobs.tut.by
