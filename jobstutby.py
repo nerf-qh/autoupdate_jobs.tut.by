@@ -125,7 +125,7 @@ class Site:
                         Chrome/45.0.2454.85 Safari/537.36",
                        "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
                        "Accept": "text/plain, */*; q=0.01",
-                       "Referer": "http://jobs.tut.by/resume/a5b5bc34ff029dc3250039ed1f4d3063333749",
+                       "Referer": "http://jobs.tut.by/resume/%s" % resume_id,
                        "X-Xsrftoken": self.token
                        }
             req = requests.Request('POST',  url,
